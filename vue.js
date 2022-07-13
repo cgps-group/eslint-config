@@ -1,3 +1,4 @@
+/* requires eslint-plugin-vue^7.6.0 */
 module.exports = {
   "extends": [
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
