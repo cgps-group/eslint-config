@@ -36,7 +36,7 @@ module.exports = {
     "no-restricted-syntax": 0,
     "no-underscore-dangle": 0,
     "no-unused-expressions": 0,
-    "no-unused-vars": [ "error", { "args": "none", "varsIgnorePattern": "^_$^PropTypes$" } ],
+    "no-unused-vars": [ "error", { "args": "none", "varsIgnorePattern": "^_$|^PropTypes$" } ],
     "no-useless-escape": 0,
     "object-curly-newline": 0,
     "operator-linebreak": 0,
