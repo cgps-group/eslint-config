@@ -13,7 +13,7 @@ module.exports = {
     "function-paren-newline": 0,
     "global-require": 0,
     "implicit-arrow-linebreak": 0,
-    "import/extensions": [ "error", { "vue": "always" } ],
+    "import/extensions": [ "error", "ignorePackages" ],
     "import/no-dynamic-require": 0,
     "import/no-extraneous-dependencies": 0,
     "import/no-unresolved": [ "error", { "ignore": ["^~/", "/$"] } ],
