@@ -45,6 +45,7 @@ module.exports = {
     "prefer-destructuring": 0,
     "quote-props": [ "error", "consistent" ],
     "quotes": [ "error", "double", { "allowTemplateLiterals": true } ],
+    "radix": [ "error", "as-needed" ],
     "spaced-comment": [ "error", "always", { "markers": ["#region"], "exceptions": ["#endregion"] } ],
   },
 };
