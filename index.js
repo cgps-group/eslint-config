@@ -17,7 +17,7 @@ module.exports = {
     "import/no-dynamic-require": 0,
     "import/no-extraneous-dependencies": 0,
     "import/no-unresolved": [ "error", { "ignore": ["^~/", "/$"] } ],
-    "import/order": [ "error", { "groups": [ "builtin", "external", "parent", "sibling", "index" ] } ],
+    "import/order": [ "error", { "groups": [ "builtin", "external", "internal", "unknown", "parent", "sibling", "index", "object", "type" ] } ],
     "import/prefer-default-export": 0,
     "max-classes-per-file": 0,
     "max-len": 0,
