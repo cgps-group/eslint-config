@@ -9,6 +9,7 @@ module.exports = {
     "brace-style": [ "error", "stroustrup" ],
     "comma-dangle": [ "error", { "arrays": "always-multiline", "objects": "always-multiline", "imports": "always-multiline", "exports": "always-multiline", "functions": "ignore" } ],
     "default-case": 0,
+    "dot-notation": 0,
     "func-names": 0,
     "function-paren-newline": 0,
     "global-require": 0,
